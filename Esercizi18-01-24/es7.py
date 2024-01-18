@@ -2,19 +2,6 @@
 in output, dovrà restituire la media di tutti i numeri nella lista maggiori o uguali a K;
 se non ce ne dovesse essere nessuno, dovrà stampare a schermo un messaggio adeguato.'''
 
-'''def media_k (lista, k):
-    listaMedia = []
-    for numero in lista:
-        if numero >= k:
-            listaMedia.append(numero)
-       
-    return sum(listaMedia)/len(listaMedia)
-
-lista = [1,2,3,4,5]
-mia_media = media_k(lista, 6)
-print(mia_media)'''
-
-
 def media_k (lista, k):
 
     #creo una lista in cui mettere tutti i valori maggiori di k
